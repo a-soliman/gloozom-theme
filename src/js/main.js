@@ -10,3 +10,10 @@ $(function() {
     });
   });
 });
+
+
+$(document).on('click', '[data-toggle="lightbox"]', function( event ) {
+	console.log('here')
+	event.preventDefault();
+	$(this).ekkoLightbox();
+})
