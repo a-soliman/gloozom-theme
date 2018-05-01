@@ -99,7 +99,20 @@ footer#main-footer {
 	}
 }
 
+#faq {
+	.card {
+		margin: 5px auto;
+		border: #444;
+		a {
+			color: white;
+			text-decoration: none;
+		}
+	}
 
+	.card-body, .card-header {
+		background: #30363c;
+	}
+}
 
 
 
