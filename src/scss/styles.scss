@@ -4,7 +4,7 @@
 
 
 body {
-	background: $white;
+	overflow-x: hidden;
 }
 
 .navbar {
@@ -41,4 +41,23 @@ body {
 
 .fa {
 	font-size: $icon-size;
+}
+
+#home-heading {
+	position: relative;
+	min-height: 200px;
+	background: url('../img/lights.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-allign: center;
+	color: $white;
+}
+
+.dark-overlay {
+	position: absolute;
+	background-color:$dark-overlay;
+	top: 0;
+	left: 0;
+	height:100%;
+	width: 100%;
 }
